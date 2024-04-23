@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.list {
+  background-color: #0cecec;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 20px;
+  padding: 15px;
+}
+.header {
+  color: #8a416e;
+}
+
+.container {
+  background-color: #fafafa;
+  border: solid rgb(0, 255, 123);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  width: 300px;
+  height: 300px;
+  position: relative; /* Agregamos posición relativa para que el botón tenga posición absoluta con respecto a este contenedor */
+}
+
+.delete-all-button {
+  position: absolute;
+  bottom: 4px;
+  width: 30%;
+  height: 10%;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 35px;
+}
